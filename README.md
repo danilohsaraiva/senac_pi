@@ -1,0 +1,2 @@
+# Sobre
+>Protejo integrador é uma "disciplina" dentre as unidades curriculares do curso Técnico em desenvolvimento de sistemas, instituição [Senac](https://www.ead.senac.br/), que contempla todo conteúdo aprendido dentre elas.

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gantari', sans-serif;
+    height: auto;
+    font-size:24px;
+    text-decoration: none;
+    color:rgb(80, 78, 78);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: rgba(91, 78, 94, 0.281);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.text {
+    display: flex;
+    height: 500px;
+    margin: 0 20%;
+    background-color:rgb(91, 78, 94);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.text2 {
+    display: flex;
+    height: auto;
+    margin: 0 20%;
+    background-color:rgb(91, 78, 94);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-column {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 0 20%;
+    background-color:rgb(91, 78, 94);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-column p {
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: start;
+
+}
+
+.titulos {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    -webkit-background-size: cover; /*funcionar em outros navegadores*/
+    -moz-background-size: cover; /*mozila*/
+    -o-background-size:cover; /*opera*/
+}
+
+.titulos:after{
+    content:"";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 70%, rgb(91, 78, 94) 100% )
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    align-items: center;
+    font-size:75px;
+    color: #fff;
+    text-align: center;
+}
+
+section.module p{
+    margin-bottom:40px;
+
+}
+
+section.module:last-child p{
+    margin-bottom: 0;
+}
+
+h1{
+    background-image:url(https://th.bing.com/th/id/R.99abab8e8f786968edcdea0c64a92770?rik=1hgCZVq%2fXnce1w&pid=ImgRaw&r=0);  
+}
+h2{
+    background-image:url(https://fce.edu.br/blog/wp-content/uploads/2018/08/shutterstock_349413722.jpg);  
+}
+h3{
+    background-image:url(https://pitchwink.com/blog/wp-content/uploads/2017/09/114890-5-impactos-impressionantes-da-tecnologia-nas-empresas.jpg);  
+}
+h4{
+    background-image:url(https://k2corporatemobility.engageinlearning.com/pluginfile.php/636/course/overviewfiles/GDPR%20Essentials.jpg);  
+}
+h5{
+    background-image:url(https://blog.lg.com.br/wp-content/uploads/2019/11/Inteligencia-Artificial.png);  
+}
+h6{
+    background-image:url(https://www.curtamais.com.br/uploads/conteudos/8e33cb3abce6f352add7a330cb078053.png);  
+}
+
+@media (max-width:1024px) {
+   
+    .text {
+        margin:0;
+    }
+    .text2 {
+        margin:0;
+        padding: 5%;
+    }
+    .text-column {
+        margin:0;
+        height: 100%;
+    }
+}
+
+@media (max-width:950px) {
+    div .text-column p{
+        width: 100%;
+        text-align:center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:550px) {
+    *{
+        margin: 0;
+    }
+    .titulos {
+        height: 400px;
+    }
+    .text-column p{
+        margin:0px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+h1,h2,h3,h4,h5,h6{
+    font-size: 3.0vh;
+}
+}
