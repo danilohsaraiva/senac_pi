@@ -1,0 +1,9 @@
+Projeto Integrador, Danilo Henrique Alves Saraiva - Senac 2022
+
+Guia, para execução dos scripts afim de gerar o banco de dados em questão.
+
+1 -		script_hotel.sql
+2 -		script_required_system.sql
+3 -		script_population_hotel.sql
+4 -		script_services.sql
+5 -		script_simulation.sql
